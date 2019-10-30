@@ -1,7 +1,5 @@
 # TINY-DEVKIT-SIGFOX
 
-# ESP8266-LOW-POWER-DEVKIT
-
 ## ESP8266 LOW POWER DEVKIT IMAGEN
 
 ![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/front.JPG)
@@ -11,50 +9,37 @@
 
 ## Caracteristicas
 
-- Diseñado para un ultrabajo consumo de energia.
-- Chip ESP07 o ESP07S a bordo.
-- Puede conectar una antena externa para tener mayor señal
-- Ideal para aplicaciones con baterias de tipo Iones de Litio 1S y paneles solares
-- Cuenta con un regulador de tension LDO TC1262 3.3V puede suministrar hasta 500mA.
-- Incorpora un transistor mosfet canal N  en modo Drenador abierto (Drain open) conectado al Pin D8 (GPIO15), para activar o desativar circuitos con un maximo de corriente de 250mA.
-- Boton de reset.
-- Pin ADC para lecturas analogicas directamente con el chip esp8266 [0-1] voltios de rango.
-- O tambien puede usar en Pin A0 donde puede ampliear el rango de lectura hasta los 6 Voltios.
-- Jumper para cambiar de  modo programacion a modo normal y viceversa.
-- Jumper en el pin D0 a GND para modo "Deep Sleep"
-- Pin Header "SW" o Switch. puede agregar un interruptor externo, o puede solamente unirlos colocando un Jumper.
-- Programable con Ide Arduino.
-- Compatible con pines de placa "Nodemcu".
+- Diseño, simple y robusto para aplicaciones de bajo consumo de energia. 
+- Incorpora Chip WISSOL WSSFM11R2DAT a bordo para conexiones a red Sigfox.
+- Incorpora una antena Helicoidal para una optima cobertura, ademas incluye un conector UF-L para antenas externas.
+- Ideal para aplicaciones con microcontroladores externos, Pic, Arduino, Arm, Freescale, Raspberry Pi. Deben contar con Puerto Serial RX,TX a 9600 baudios a niveles dde tension de 3.3V.
+- Voltaje de Funcionamiento de 3.3V
+- Puede ser alimentado directamente con 2 Baterias Alcalinas AA, AAA, C, D.
+- Se Garantiza alta duracion de baterias.
 
 
 ## Caracteristicas Electricas
 
-| Voltaje Maximo VIN| 6.5 Voltios                    |
+| Descripcion| Unidad                    |
 | ------------- | ------------------------------ |
-| Voltaje Minimo  VIN |  3.5 Voltios    |  
-| Voltaje  Salida  |  3.3 Voltios    | 
-| Corriente minima en reposo   | 80uA     |
-| Corriente maxima   | 500mA     |
-| Lectura Analogica pin ADC   | 0-6 Voltios     |
-| Lectrura analogica pin A0   | 0-1 Voltios     |
+| Voltaje de Funcionamiento  |  3.3V    |  
+| Voltaje  Maximo de Entrada  |  3.6 Voltios    | 
+| Voltaje minimo de Entrada   | 2.7 Voltios     |
+| Consumo corriente TX | 170mA      |
+| Consumo corriente RX   | 32mA     |
+| Consumo en modo Deep Sleep   | 2.5uA     |
 
 ## Descripcion de pines
 
 | Pin| Descripcion                    |
 | ------------- | ------------------------------ |
-| D0 |  GPIO16, Wake up deep Sleep    |  
-| D1  |  GPIO5, SCL    | 
-| D2   | GPIO4, SDA     |
-| D3/PU   | GPIO0, pull_up, Flash mode     |
-| D4/PU/LED   | GPIO4, pull_up, led interno esp     |
-| D5   | GPIO14, SCLK     |
-| D6   | GPIO12, MISO     |
-| D7   | GPIO13, MOSI     |
-| D8/DOP   | GPIO15, Drenador abierto (Drain open), CS     |
-| TX   | GPIO1     |
-| RX   | GPIO3    |
-| ADC   | Lectrura analogica [0-1] Voltios    |
-| A0   | Lectrura analogica [0-6] Voltios   |
+| G |  GND    |  
+| Rx  |  Rx WSSFM11R2DAT    | 
+| Tx   |  Tx WSSFM11R2DAT     |
+| Rst   | Reset WSSFM11R2DAT    |
+| +3V   | VIN, Voltaje de entrada [2.7 - 3.6]Voltios    |
+| G   | GND     |
+
 
 
 # Cargar un Programa a ESP8266 DEVKIT LOW POWER
