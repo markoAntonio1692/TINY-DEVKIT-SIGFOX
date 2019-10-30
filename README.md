@@ -13,7 +13,7 @@
 - Ideal para aplicaciones con microcontroladores externos, Pic, Arduino, Arm, Freescale, Raspberry Pi etc. Deben contar con Puerto Serial RX,TX a 9600 baudios y niveles de tension de 3.3V.
 - Voltaje de Funcionamiento de 3.3V.
 - Puede ser alimentado directamente con 2 Baterias Alcalinas AA, AAA, C, D.
-- Se Garantiza alta duracion de baterias.
+- Alta duracion de baterias.
 
 
 ## Caracteristicas Electricas
@@ -42,9 +42,10 @@
 
 # Probar modulo TINY DEVKIT SIGFOX
 
-- Alimente a la placa ESP8266 DEVKIT LOW POWER por VIN.
-- Coloque un Jumper entre los pin Heder "SW", o puede usar un switch externo si lo necesita.
-
+- Necesitara tener un modulo USB a SERIAL como FTDI, CH340, CP201x, etc. Conecte los pines de manera adecuada a TINY DEVKIT SIGFOX (Rx con Tx y veceverza).
+- Conecte su modulo USB a SERIAL a su PC, espere a que sea reconocido el driver.
+- Use la aplicacion "SFM10R_AT_TEST_v14" 
+`<link>` : <https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/tree/master/Software>
 
 
 
