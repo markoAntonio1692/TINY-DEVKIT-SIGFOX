@@ -40,7 +40,7 @@
 
 
 
-# Probar modulo TINY DEVKIT SIGFOX
+# Probar módulo TINY DEVKIT SIGFOX
 
 - Necesitara tener un modulo USB a SERIAL como FTDI, CH340, CP201x, etc. Conecte los pines de manera adecuada a TINY DEVKIT SIGFOX (Rx con Tx y veceverza).
 - Conecte su modulo USB a SERIAL a su PC, espere a que sea reconocido el driver.
@@ -50,7 +50,8 @@
 - Ingrese el numero del puerto COM que fue detectado en su PC.
 - Clic en "Connect".
 - Ingrese el comando AT y click en "Send", su modulo habra respondio con "OK" .
-
-![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/test.JPG)
 - Para mas informacion y comando disponibles consulte esta documentacion:
 `<link>` : <https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/Manual/DS_WSSFM11R2DAT_REV05_180702.pdf>
+
+
+![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/test.JPG)
