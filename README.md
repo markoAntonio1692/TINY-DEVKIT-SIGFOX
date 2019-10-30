@@ -2,9 +2,7 @@
 
 ## ESP8266 LOW POWER DEVKIT IMAGEN
 
-![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/front.JPG)
-
-![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/rear.JPG)
+![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/front-rear.png)
 
 
 ## Caracteristicas
