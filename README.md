@@ -46,6 +46,9 @@
 - Conecte su modulo USB a SERIAL a su PC, espere a que sea reconocido el driver.
 - Use la aplicacion "SFM10R_AT_TEST_v14" 
 `<link>` : <https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/tree/master/Software>
-
-
+- Abra el executable
+- Ingrese el numero del puerto COM que fue detectado en su PC.
+- Clic en "Conect"
+- Ingrese el comando AT y click en "Send", su modulo habra respondio con "OK" .
+![](https://github.com/markoAntonio1692/TINY-DEVKIT-SIGFOX/blob/master/imagenes/test.JPG)
 
